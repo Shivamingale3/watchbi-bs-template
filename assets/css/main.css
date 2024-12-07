@@ -14,8 +14,8 @@ body {
   /* background: url("../img/bg.jpg") top center no-repeat; */
   background-size: cover;
   position: relative;
-  background: rgb(252, 252, 252);
-  color:#000;
+  background: #000;
+  color: #fff;
 }
 body::before {
   content: "";
@@ -24,7 +24,6 @@ body::before {
   right: 0;
   top: 0;
   bottom: 0;
-  
 }
 @media (min-width: 1024px) {
   body {
@@ -42,14 +41,18 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
 #main {
   position: relative;
 }
-
 
 /*--------------------------------------------------------------
 # Header
@@ -65,10 +68,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #000;
+  color: #fff;
 }
 #header h2 {
-  color: #000;
+  color: #fff;
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -77,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .countdown div {
   text-align: center;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   border-radius: 8px;
   margin: 10px 10px;
   width: 100px;
@@ -128,13 +131,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .social-links a {
   font-size: 16px;
-  color: #000;
+  color: #fff;
   margin: 0 3px;
   border-radius: 50%;
   width: 48px;
   height: 48px;
   transition: 0.3s;
-  border: 1px solid #000;
+  border: 1px solid #fff;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -150,22 +153,22 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
-  background: rgba(38, 55, 69, 0.4);
+.footer {
+  background: rgb(32, 32, 32) !important;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
   position: relative;
 }
-#footer .copyright {
+.footer .copyright {
   text-align: center;
 }
-#footer .credits {
+.footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #fff;
 }
-#footer .credits a {
+.footer .credits a {
   color: #36d8c3;
 }
